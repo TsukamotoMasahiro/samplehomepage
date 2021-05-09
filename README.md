@@ -1,2 +1,3 @@
 # basic-html
-read plz
+please read
+
