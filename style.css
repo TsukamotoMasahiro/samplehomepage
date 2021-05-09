@@ -1,0 +1,161 @@
+{
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    text-align: center;
+    font-size: 0.8rem;
+    background: url('images/bg.jpg') fixed;
+    background-size: cover;
+}
+
+.header {
+    padding: 170px 30px 80px;
+    height: 100vh;
+    background-color: rgba(25,25,120,0.9)
+}
+
+.site-title-sub{
+    margin: 0 0 30px;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+.site-title{
+    margin: 50px;
+    font-size: 4.5rem;
+}
+.site-description{
+    margin-bottom: 50px;
+    color: #888;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.button{
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 4px;
+    background-color: #afa58d;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 0.7rem;
+}
+
+.button:hover{
+    opacity: 0.9;
+}
+.button-orenge{
+    background-color: #f1b400
+}
+
+.about{
+    height: 100vh;
+    padding: 80px 30px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.about-text{
+    width: 600px;
+    marigin: 30px auto;
+    line-height: 2.5;
+    text-align: left;
+}
+.heading{
+    display: inline-block;
+    margin: 30px 0 15px;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+    font-size: 4rem;
+    border-bottom: double 4px #999;
+}
+.works {
+    height: 100vh;
+    background-color: #383634;
+  padding: 80px 0 10px;
+}
+
+.works-wrapper {
+  display: table;
+  width: 860px;
+  margin: 60px auto 0;
+  table-layout: fixed;
+}
+
+.work-box {
+  display: table-cell;
+  background-color: rgba(100, 100, 100, 0.3);
+  border: 1px solid #333;
+}
+
+.work-image {
+  display: block;
+  width: 100%;
+}
+
+.work-description {
+  margin: 20px 0;
+  height: 65px;
+}
+
+.work-description .button {
+  width: 60%;
+  margin-top: 20px;
+  padding: 3px;
+  display: inline-block;
+}
+
+.button-ghost {
+  border: 2px solid #fff;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+
+.contact{
+    height: 100vh;
+    padding: 80px 0 150px;
+    background-color: rgba(25,25,120,0.9);
+}
+.contact-form {
+  width: 50%;
+  margin: 50px auto 0;
+}
+
+.contact-form input[type=text], .contact-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 15px;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 0;
+  color: #333;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form input[type=submit] {
+  display: block;
+  width: 200px;
+  margin: 40px auto 0;
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact-form input[type=submit]:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
